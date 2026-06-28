@@ -11,6 +11,7 @@ import Reviews from './components/Reviews';
 import Offerings from './components/Offerings';
 import Footer from './components/Footer';
 import { MessageSquare } from 'lucide-react';
+import { Helmet } from "react-helmet-async";
 
 export default function App() {
   const handleFloatingWhatsApp = () => {
@@ -19,8 +20,40 @@ export default function App() {
   };
 
   return (
+    
     <div className="relative min-h-screen w-full bg-white text-black font-sans selection:bg-neutral-900 selection:text-white overflow-x-hidden">
       
+      <Helmet>
+  <title>Life With Tarot & Kavi | Professional Tarot Reader & Numerology</title>
+
+  <meta
+    name="description"
+    content="Professional Tarot Reading and Numerology guidance by Kavita. Book online and in-person sessions for love, career, relationships, marriage and personal growth."
+  />
+
+  <meta
+    name="keywords"
+    content="Tarot Reader, Tarot Reading, Numerology, Online Tarot Reading, Love Tarot, Career Guidance, Marriage Guidance, Tarot India"
+  />
+
+  <meta name="author" content="Life With Tarot & Kavi" />
+
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:title" content="Life With Tarot & Kavi" />
+
+  <meta
+    property="og:description"
+    content="Professional Tarot Reading & Numerology Guidance."
+  />
+
+  <meta
+    property="og:url"
+    content="https://lifewithtarotandkavita.vercel.app"
+  />
+</Helmet>
       {/* Navigation Layer */}
       <Navbar />
 
