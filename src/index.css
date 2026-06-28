@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./styles/fonts.css";
+@import "./styles/theme.css";
+
+@theme {
+  --font-serif: "Instrument Serif", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  /* Additional variables */
+  --color-brand-gray: #6F6F6F;
+  --color-brand-black: #000000;
+}
+
