@@ -11,7 +11,7 @@ import Reviews from './components/Reviews';
 import Offerings from './components/Offerings';
 import Footer from './components/Footer';
 import { MessageSquare } from 'lucide-react';
-import { Helmet } from "react-helmet-async";
+
 
 export default function App() {
   const handleFloatingWhatsApp = () => {
@@ -26,95 +26,7 @@ export default function App() {
     
 
 
-      <Helmet>
-  <title>Life With Tarot & Kavi | Professional Tarot Reader & Numerology</title>
-
-  <meta
-    name="description"
-    content="Professional Tarot Reading and Numerology guidance by Kavita. Book online and in-person sessions for love, career, relationships, marriage and personal growth."
-  />
-
-  <meta
-    name="keywords"
-    content="Tarot Reader, Tarot Reading, Numerology, Online Tarot Reading, Love Tarot, Career Guidance, Marriage Guidance, Tarot India"
-  />
-
-  <meta name="author" content="Life With Tarot & Kavi" />
-
-  <meta name="robots" content="index,follow" />
-
-  <link
-  rel="canonical"
-  href="https://lifewithtarotandkavita.vercel.app"
-/>
-
-  <meta
-  property="og:image"
-  content="https://lifewithtarotandkavita.vercel.app/og-image.png"
-/>
-
-<meta property="og:image:type" content="image/png" />
-
-<meta property="og:image:width" content="1200" />
-
-<meta property="og:image:height" content="630" />
-
-<meta
-  name="twitter:image"
-  content="https://lifewithtarotandkavita.vercel.app/og-image.png"
-/>
-
-  <meta property="og:site_name" content="Life With Tarot & Kavi" />
-
-<meta property="og:locale" content="en_US" />
-
-<meta name="twitter:card" content="summary_large_image" />
-
-  <meta property="og:type" content="website" />
-
-  <meta property="og:title" content="Life With Tarot & Kavi" />
-
-  <meta
-    property="og:description"
-    content="Professional Tarot Reading & Numerology Guidance."
-  />
-
-  <meta
-    property="og:url"
-    content="https://lifewithtarotandkavita.vercel.app"
-  />
-
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      name: "Life With Tarot & Kavi",
-      image: "https://lifewithtarotandkavita.vercel.app/og-image.png",
-      url: "https://lifewithtarotandkavita.vercel.app",
-      telephone: "+91 9773595256",
-      description:
-        "Professional Tarot Reading and Numerology Guidance for love, career, relationships, marriage, finance and personal growth.",
-      priceRange: "₹₹",
-      areaServed: "Worldwide",
-      availableLanguage: [
-        "English",
-        "Hindi"
-      ],
-      contactPoint: {
-        "@type": "ContactPoint",
-        telephone: "+91 9773595256",
-        contactType: "Customer Support",
-        availableLanguage: [
-          "English",
-          "Hindi"
-        ]
-      }
-    }),
-  }}
-/>
-</Helmet>
+      
       {/* Navigation Layer */}
       <Navbar />
 
