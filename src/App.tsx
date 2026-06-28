@@ -40,6 +40,11 @@ export default function App() {
 
   <meta name="robots" content="index,follow" />
 
+  <link
+  rel="canonical"
+  href="https://lifewithtarotandkavita.vercel.app"
+/>
+
   <meta property="og:type" content="website" />
 
   <meta property="og:title" content="Life With Tarot & Kavi" />
