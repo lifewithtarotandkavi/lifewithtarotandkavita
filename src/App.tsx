@@ -45,6 +45,28 @@ export default function App() {
   href="https://lifewithtarotandkavita.vercel.app"
 />
 
+  <meta
+  property="og:image"
+  content="https://lifewithtarotandkavita.vercel.app/og-image.png"
+/>
+
+<meta property="og:image:type" content="image/png" />
+
+<meta property="og:image:width" content="1200" />
+
+<meta property="og:image:height" content="630" />
+
+<meta
+  name="twitter:image"
+  content="https://lifewithtarotandkavita.vercel.app/og-image.png"
+/>
+
+  <meta property="og:site_name" content="Life With Tarot & Kavi" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta name="twitter:card" content="summary_large_image" />
+
   <meta property="og:type" content="website" />
 
   <meta property="og:title" content="Life With Tarot & Kavi" />
