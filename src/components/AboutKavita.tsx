@@ -51,7 +51,7 @@ export default function AboutKavita() {
 
             <div className="space-y-6 text-sm sm:text-base text-neutral-700 font-sans leading-relaxed">
               <p>
-                I'm Kavita — a tarot reader and numerologist, and the quiet voice behind <strong>Life With Tarot & Kavita®</strong>. For over a decade, I've sat with people during some of the most uncertain seasons of their lives — career pivots, marriages, heartbreaks, second chances — and helped them find the next honest step forward.
+                I'm Kavita — a tarot reader , and the quiet voice behind <strong>Life With Tarot & Kavita®</strong>. For over a decade, I've sat with people during some of the most uncertain seasons of their lives — career pivots, marriages, heartbreaks, second chances — and helped them find the next honest step forward.
               </p>
               <p>
                 My work is not about prediction or fear. It's about creating a calm, private space where you can think clearly, feel safely, and hear yourself again. Tarot and numerology are my tools — what we are really working with is your story.
@@ -84,7 +84,7 @@ export default function AboutKavita() {
                   EXPERIENCE
                 </span>
                 <p className="text-xs text-neutral-600 font-sans leading-relaxed">
-                  10+ years of practice. Hundreds of clients across India, Europe, the UK and the US.
+                  5+ years of practice. Hundreds of clients across India, Europe, the UK and the US.
                 </p>
               </div>
 
