@@ -29,7 +29,7 @@ export default function AboutKavita() {
             {/* Floating Experience Badge overlapping bottom part */}
             <div className="absolute -bottom-6 right-4 lg:-right-4 bg-white border border-neutral-100 shadow-xl p-6 rounded-sm text-center max-w-[150px] animate-fade-rise">
               <span className="block text-4xl font-serif font-semibold text-black leading-none">
-                10+
+                5+
               </span>
               <span className="block text-[9px] tracking-[0.15em] font-sans uppercase text-[#6F6F6F] mt-2 font-medium">
                 Years of Practice
