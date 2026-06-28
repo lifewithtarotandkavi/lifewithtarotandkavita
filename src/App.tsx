@@ -84,38 +84,36 @@ export default function App() {
     content="https://lifewithtarotandkavita.vercel.app"
   />
 
-  <script type="application/ld+json">
-{`
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Life With Tarot & Kavi",
-  "image": "https://lifewithtarotandkavita.vercel.app/og-image.png",
-  "url": "https://lifewithtarotandkavita.vercel.app",
-  "telephone": "+91-9773595256",
-  "description": "Professional Tarot Reading and Numerology Guidance for love, career, relationships, marriage, finance and personal growth.",
-  "priceRange": "₹₹",
-  "areaServed": "Worldwide",
-  "availableLanguage": [
-    "English",
-    "Hindi"
-  ],
-  "sameAs": [
-    "https://www.instagram.com/YOUR_INSTAGRAM",
-    "https://www.facebook.com/YOUR_FACEBOOK"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91-9773595256",
-    "contactType": "Customer Support",
-    "availableLanguage": [
-      "English",
-      "Hindi"
-    ]
-  }
-}
-`}
-</script>
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      name: "Life With Tarot & Kavi",
+      image: "https://lifewithtarotandkavita.vercel.app/og-image.png",
+      url: "https://lifewithtarotandkavita.vercel.app",
+      telephone: "+91 9773595256",
+      description:
+        "Professional Tarot Reading and Numerology Guidance for love, career, relationships, marriage, finance and personal growth.",
+      priceRange: "₹₹",
+      areaServed: "Worldwide",
+      availableLanguage: [
+        "English",
+        "Hindi"
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 9773595256",
+        contactType: "Customer Support",
+        availableLanguage: [
+          "English",
+          "Hindi"
+        ]
+      }
+    }),
+  }}
+/>
 </Helmet>
       {/* Navigation Layer */}
       <Navbar />
