@@ -23,11 +23,14 @@ export default function Footer() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-serif text-white tracking-tight cursor-pointer hover:opacity-80 transition-opacity"
           >
-            Life With Tarot & Kavita<sup className="text-xs font-sans tracking-normal -top-1">®</sup>
+            Life With Tarot & Kavita
           </h3>
-          <p className="text-xs sm:text-sm text-neutral-400 font-sans leading-relaxed max-w-sm">
-            Illuminating structural pathways for brilliant minds, fearless seekers, and thoughtful souls. Under the guidance of Kavita, we craft digital portals of deep work and pure spiritual flow.
-          </p>
+          
+<p className="text-xs sm:text-sm text-neutral-400 font-sans leading-relaxed max-w-sm">
+  Professional Tarot Reading and Numerology Guidance by Kavita. Offering personalized online and in-person consultations for love, career, relationships, marriage, finance, and personal growth. Trusted by clients across India and worldwide.
+</p>
+
+
           <div className="pt-2 text-[10px] text-neutral-500 font-mono">
             © {new Date().getFullYear()} Life With Tarot & Kavita. All rights reserved.
           </div>
@@ -36,7 +39,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="md:col-span-3 space-y-4">
           <h4 className="text-xs font-sans font-semibold text-neutral-400 uppercase tracking-widest">
-            Sitemap
+            Quick Links
           </h4>
           <ul className="space-y-2.5 text-xs sm:text-sm font-sans text-neutral-300">
             <li>
@@ -46,12 +49,12 @@ export default function Footer() {
             </li>
             <li>
               <button onClick={() => handleScroll('tarot-draw')} className="hover:text-white transition-colors cursor-pointer">
-                Tarot Draw Experience
+                Tarot Reading
               </button>
             </li>
             <li>
               <button onClick={() => handleScroll('about-kavita')} className="hover:text-white transition-colors cursor-pointer">
-                About Kavita's Practice
+                About Kavita
               </button>
             </li>
             <li>
@@ -61,7 +64,7 @@ export default function Footer() {
             </li>
             <li>
               <button onClick={() => handleScroll('offerings')} className="hover:text-white transition-colors cursor-pointer">
-                Bookings Menu
+                Book A Session
               </button>
             </li>
           </ul>
@@ -74,7 +77,10 @@ export default function Footer() {
               Instant Connection
             </h4>
             <p className="text-xs text-neutral-400 font-sans leading-relaxed">
-              Skip the email queues. Connect directly with Kavita's office on WhatsApp for immediate availability and customized offerings.
+             
+Book your tarot reading or numerology consultation directly on WhatsApp. Get quick responses, discuss your questions, and schedule a personalized session with Kavita.
+
+
             </p>
           </div>
 
@@ -92,7 +98,7 @@ export default function Footer() {
       {/* Credit Row */}
       <div className="max-w-6xl mx-auto px-6 mt-12 pt-8 border-t border-neutral-900 flex flex-col sm:flex-row items-center justify-between text-[11px] text-neutral-600 font-sans gap-4">
         <div>
-          Made with <Heart className="h-3 w-3 inline text-rose-600 fill-rose-600 mx-0.5" /> for soulful seekers worldwide.
+         Professional Tarot Reading & Numerology Guidance • Online & In-Person Sessions.
         </div>
         <div className="flex gap-4">
           <a href="#" className="hover:text-neutral-400 transition-colors">Privacy Policy</a>

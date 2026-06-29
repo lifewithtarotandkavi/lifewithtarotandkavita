@@ -50,12 +50,16 @@ export default function AboutKavita() {
             </div>
 
             <div className="space-y-6 text-sm sm:text-base text-neutral-700 font-sans leading-relaxed">
-              <p>
-                I'm Kavita — a tarot reader , and the quiet voice behind <strong>Life With Tarot & Kavita®</strong>. For over a decade, I've sat with people during some of the most uncertain seasons of their lives — career pivots, marriages, heartbreaks, second chances — and helped them find the next honest step forward.
-              </p>
-              <p>
-                My work is not about prediction or fear. It's about creating a calm, private space where you can think clearly, feel safely, and hear yourself again. Tarot and numerology are my tools — what we are really working with is your story.
-              </p>
+            
+<p>
+  I'm <strong>Kavita</strong>, the founder of <strong>Life With Tarot & Kavita</strong>, offering professional <strong>Tarot Reading</strong> and <strong>Numerology Guidance</strong> to help people find clarity, confidence, and direction in life's most important decisions. Whether you're seeking answers about love, career, relationships, marriage, finance, or personal growth, every session is conducted with compassion, honesty, and complete confidentiality.
+</p>
+
+<p>
+  With over <strong>5 years of experience</strong>, I have guided hundreds of clients across India and internationally through personalized tarot consultations. My approach is not about creating fear or dependency—it's about helping you understand your current situation, discover new perspectives, and make informed decisions with confidence. Every reading is tailored to your unique journey, providing practical guidance and emotional clarity in a calm, supportive environment.
+</p>
+
+
             </div>
 
             {/* 3-Column Pillars (Mission, Approach, Experience) */}

@@ -51,7 +51,7 @@ export default function Navbar() {
         >
           <span className={isScrolled ? 'text-black font-semibold' : 'text-white font-normal'}>
             Life With Tarot & <span className="text-[#D5B990] font-normal italic">Kavita</span>
-            <sup className="text-[10px] font-sans tracking-normal ml-0.5 -top-1">®</sup>
+            {/* <sup className="text-[10px] font-sans tracking-normal ml-0.5 -top-1">®</sup> */}
           </span>
         </a>
 
