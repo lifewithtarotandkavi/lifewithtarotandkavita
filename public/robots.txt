@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://lifewithtarotandkavita.vercel.app/sitemap.xml
+Sitemap: https://lifewithtarotandkavita.com/sitemap.xml
